@@ -1,0 +1,306 @@
+{
+  "generatedAt": "2026-09-16T03:42:28.120Z",
+  "total": 46,
+  "passed": 46,
+  "failed": 0,
+  "groups": {
+    "nav": {
+      "pass": 13,
+      "fail": 0
+    },
+    "motion": {
+      "pass": 10,
+      "fail": 0
+    },
+    "a11y": {
+      "pass": 16,
+      "fail": 0
+    },
+    "data": {
+      "pass": 3,
+      "fail": 0
+    },
+    "player": {
+      "pass": 4,
+      "fail": 0
+    }
+  },
+  "results": [
+    {
+      "group": "nav",
+      "name": "每页都有汉堡按钮 data-nav-toggle",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "nav",
+      "name": "汉堡按钮含 aria-expanded 初始 false",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "nav",
+      "name": "汉堡按钮含 aria-controls 指向导航 id",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "nav",
+      "name": "汉堡按钮具备可访问名称 aria-label",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "nav",
+      "name": "菜单默认收起（CSS 中 .main-nav 默认隐藏）",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "nav",
+      "name": "打开态由 .is-open 控制",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "nav",
+      "name": "实现焦点陷阱（Tab / Shift+Tab 首尾循环）",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "nav",
+      "name": "焦点选择器集合完整",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "nav",
+      "name": "Esc 键关闭菜单",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "nav",
+      "name": "关闭后焦点还原到汉堡按钮",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "nav",
+      "name": "打开时焦点移入菜单首个可聚焦元素",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "nav",
+      "name": "桌面断点（720px）显示、移动端隐藏按钮样式存在",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "nav",
+      "name": "resize 到桌面时复位菜单状态",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "motion",
+      "name": "CSS 含 prefers-reduced-motion 媒体查询",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "motion",
+      "name": "媒体查询中压制动画与过渡时长",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "motion",
+      "name": "html.motion-off 类用于手动关闭动画",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "motion",
+      "name": "页面提供“减弱动态效果”复选框开关",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "motion",
+      "name": "开关与 aria-checked 同步",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "motion",
+      "name": "默认读取系统 prefers-reduced-motion",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "motion",
+      "name": "用户选择通过 localStorage 持久化",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "motion",
+      "name": "系统设置变化时自动模式即时跟随",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "motion",
+      "name": "播放器在减弱模式下禁用自动播放并允许单步",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "motion",
+      "name": "减弱模式开启时停止正在进行的播放",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "a11y",
+      "name": "所有页面声明 <html lang=\"zh-CN\">",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "a11y",
+      "name": "所有页面含跳转到主内容的 skip-link",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "a11y",
+      "name": "每页有且仅有一个 h1",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "a11y",
+      "name": "标题层级：首页 h1 之后先出现 h2 再出现 h3（不跳级）",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "a11y",
+      "name": "所有页面有 meta viewport 与 description",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "a11y",
+      "name": "所有页面有 <title> 且非空",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "a11y",
+      "name": "导航区域有 aria-label",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "a11y",
+      "name": "动态内容区域使用 aria-live",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "a11y",
+      "name": "加载错误提供 role=\"alert\"",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "a11y",
+      "name": "SVG 纹样在装饰场景 aria-hidden、信息场景带 role=img+label",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "a11y",
+      "name": "播放器进度条具备 role=progressbar 与 aria-value*",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "a11y",
+      "name": "分步说明使用 aria-live 播报当前步骤",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "a11y",
+      "name": "所有按钮为真实 button 元素或带 role",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "a11y",
+      "name": "筛选按钮组有 group 角色与标签",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "a11y",
+      "name": "用户文本经 HTML 转义后渲染（防注入）",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "a11y",
+      "name": "焦点样式可见（:focus-visible 轮廓）",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "data",
+      "name": "stitches.json 符合 schema 标识",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "data",
+      "name": "每种针法含分步 steps（≥4 步）且带图解元素",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "data",
+      "name": "源流/纹样/作品/案例数据均可解析且 schema 正确",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "player",
+      "name": "播放器状态写入 localStorage（断点恢复）",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "player",
+      "name": "提供“继续观看 / 从头开始”恢复横幅",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "player",
+      "name": "切后台与离开页面时保存进度",
+      "pass": true,
+      "detail": "通过"
+    },
+    {
+      "group": "player",
+      "name": "支持上一步/下一步/播放/重置控件",
+      "pass": true,
+      "detail": "通过"
+    }
+  ]
+}

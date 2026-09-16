@@ -1,0 +1,88 @@
+{
+  "schema": "miao-embroidery.works/v1",
+  "description": "苗绣代表作品数据（文化示意条目，用于专题展陈）",
+  "updated": "2026-09-01",
+  "note": "条目为技艺与纹样的代表性展陈示意，并非馆藏精确著录。",
+  "works": [
+    {
+      "id": "w1",
+      "title": "破线绣《蝴蝶妈妈》衣袖饰",
+      "dynasty": "清代",
+      "region": "贵州台江施洞",
+      "technique": "破线绣",
+      "motif": "butterfly",
+      "palette": ["#7a1f2b", "#c9a24b", "#1e4d3d"],
+      "description": "袖腰正中绣人面蝶身的始祖神，丝缕细如发丝，四周环绕枫木与鸟纹，是盛装“史诗叙事”的核心段落。"
+    },
+    {
+      "id": "w2",
+      "title": "锁绣苗龙纹袖片",
+      "dynasty": "民国",
+      "region": "贵州雷山西江",
+      "technique": "锁绣",
+      "motif": "dragon",
+      "palette": ["#16324f", "#d6336c", "#c9a24b"],
+      "description": "短身鱼尾的苗龙以红金锁线勾成，线链连绵富有弹性，龙身边点缀花草，气质亲和而神秘。"
+    },
+    {
+      "id": "w3",
+      "title": "打籽绣锦鸡背扇",
+      "dynasty": "清代",
+      "region": "贵州黄平",
+      "technique": "打籽绣",
+      "motif": "bird",
+      "palette": ["#0f7b6c", "#7a1f2b", "#e8b04b"],
+      "description": "背扇中心高冠锦鸡由数千粒籽针铺成，颗粒凸起如点彩油画，寄托背儿远行的母亲心愿。"
+    },
+    {
+      "id": "w4",
+      "title": "堆绣龙纹盛装胸饰",
+      "dynasty": "近现代",
+      "region": "贵州凯里",
+      "technique": "堆绣",
+      "motif": "dragon",
+      "palette": ["#0f7b6c", "#b3402e", "#16324f"],
+      "description": "数百枚彩色绫片层层叠钉成龙鳞，青、红、蓝三色递进，配银饰压领，盛装时如披铠甲。"
+    },
+    {
+      "id": "w5",
+      "title": "挑花几何纹衣边",
+      "dynasty": "清代",
+      "region": "湖南湘西",
+      "technique": "数纱挑花",
+      "motif": "geometric",
+      "palette": ["#10243d", "#c0392b", "#f2ead8"],
+      "description": "按布丝数格挑出十字菱形与回纹，青白红三色严整对称，针脚藏在经纬之间，正反皆可观赏。"
+    },
+    {
+      "id": "w6",
+      "title": "贴布绣鱼纹童帽",
+      "dynasty": "民国",
+      "region": "云南文山",
+      "technique": "贴布绣",
+      "motif": "fish",
+      "palette": ["#b3402e", "#16324f", "#e8b04b"],
+      "description": "深蓝底上剪贴红鱼，黄线锁边、白线点睛，造型稚拙，祈愿孩童如鱼得水、易养成人。"
+    },
+    {
+      "id": "w7",
+      "title": "平绣铜鼓纹背带",
+      "dynasty": "清代",
+      "region": "贵州丹寨",
+      "technique": "平绣",
+      "motif": "drum",
+      "palette": ["#c9a24b", "#7a1f2b", "#1e4d3d"],
+      "description": "同心圆太阳芒自背带中心放射，锯齿与旋纹层层展开，把铜鼓的礼乐秩序绣入育儿背带。"
+    },
+    {
+      "id": "w8",
+      "title": "迁徙江河纹百褶裙",
+      "dynasty": "近现代",
+      "region": "贵州黔西",
+      "technique": "挑花、平绣结合",
+      "motif": "river",
+      "palette": ["#0f3550", "#d6336c", "#f2c14e"],
+      "description": "裙边长带以折线、菱形记录渡过的江河与田畴，走动时百褶摇曳，像一部展开的迁徙地图。"
+    }
+  ]
+}

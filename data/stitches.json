@@ -1,0 +1,348 @@
+{
+  "schema": "miao-embroidery.stitches/v1",
+  "description": "苗绣针法数据：每针包含用途、难度与分步演示步骤（SVG 图元按步骤显现）",
+  "updated": "2026-09-01",
+  "stitches": [
+    {
+      "id": "satin",
+      "name": "破线平绣",
+      "otherNames": ["平绣", "破线绣"],
+      "difficulty": "medium",
+      "region": "黔东南施洞",
+      "use": "人物、花卉、蝴蝶等细腻主题",
+      "thread": "丝绒线破成细丝，上皂角液顺滑",
+      "summary": "将一根丝线破为多缕细丝，按纹样轮廓以长短一致的直针平铺填色，绣面平滑光亮、过渡细腻，是施洞苗绣最具代表性的针法。",
+      "diagram": {
+        "viewBox": [0, 0, 320, 200],
+        "fabric": {"x": 8, "y": 8, "w": 304, "h": 184, "fill": "#f3ead6"},
+        "steps": [
+          {
+            "title": "起稿定位",
+            "instruction": "在缎面上描出叶片轮廓，确定起针方向；平绣丝线顺着纹样走向平铺。",
+            "elements": [
+              {"tag": "path", "attrs": {"d": "M160 36 C205 60 225 110 160 168 C95 110 115 60 160 36 Z", "fill": "none", "stroke": "#8a6d3b", "stroke-width": 2, "stroke-dasharray": "5 4"}}
+            ]
+          },
+          {
+            "title": "从尖端起针",
+            "instruction": "在叶尖正面下第一针，背面藏好线头，针距约 2–3 毫米。",
+            "elements": [
+              {"tag": "line", "attrs": {"x1": 160, "y1": 36, "x2": 160, "y2": 56, "class": "thread-satin"}}
+            ]
+          },
+          {
+            "title": "平行铺线",
+            "instruction": "一针紧挨一针平行排列，丝缕统一，先铺一侧再铺另一侧，不重叠不露底。",
+            "elements": [
+              {"tag": "line", "attrs": {"x1": 137, "y1": 50, "x2": 150, "y2": 70, "class": "thread-satin"}},
+              {"tag": "line", "attrs": {"x1": 183, "y1": 50, "x2": 170, "y2": 70, "class": "thread-satin"}},
+              {"tag": "line", "attrs": {"x1": 124, "y1": 70, "x2": 143, "y2": 88, "class": "thread-satin"}},
+              {"tag": "line", "attrs": {"x1": 196, "y1": 70, "x2": 177, "y2": 88, "class": "thread-satin"}},
+              {"tag": "line", "attrs": {"x1": 117, "y1": 92, "x2": 140, "y2": 106, "class": "thread-satin"}},
+              {"tag": "line", "attrs": {"x1": 203, "y1": 92, "x2": 180, "y2": 106, "class": "thread-satin"}},
+              {"tag": "line", "attrs": {"x1": 115, "y1": 114, "x2": 141, "y2": 124, "class": "thread-satin"}},
+              {"tag": "line", "attrs": {"x1": 205, "y1": 114, "x2": 179, "y2": 124, "class": "thread-satin"}},
+              {"tag": "line", "attrs": {"x1": 122, "y1": 136, "x2": 147, "y2": 142, "class": "thread-satin"}},
+              {"tag": "line", "attrs": {"x1": 198, "y1": 136, "x2": 173, "y2": 142, "class": "thread-satin"}},
+              {"tag": "line", "attrs": {"x1": 138, "y1": 156, "x2": 154, "y2": 158, "class": "thread-satin"}},
+              {"tag": "line", "attrs": {"x1": 182, "y1": 156, "x2": 166, "y2": 158, "class": "thread-satin"}}
+            ]
+          },
+          {
+            "title": "勾出主脉",
+            "instruction": "换深一度的色线，沿叶中心绣一条主脉，压住两侧铺线的收口。",
+            "elements": [
+              {"tag": "path", "attrs": {"d": "M160 38 C158 80 158 120 160 166", "fill": "none", "stroke": "#7a1f2b", "stroke-width": 2.4, "stroke-linecap": "round"}}
+            ]
+          },
+          {
+            "title": "分色过渡",
+            "instruction": "相邻花瓣换色时以深浅区分层次，破丝越细，混色越柔和。",
+            "elements": [
+              {"tag": "path", "attrs": {"d": "M92 120 C100 96 118 82 138 78", "fill": "none", "stroke": "#0f7b6c", "stroke-width": 2.4, "stroke-linecap": "round"}},
+              {"tag": "path", "attrs": {"d": "M228 120 C220 96 202 82 182 78", "fill": "none", "stroke": "#0f7b6c", "stroke-width": 2.4, "stroke-linecap": "round"}}
+            ]
+          },
+          {
+            "title": "收边完成",
+            "instruction": "沿外缘压一圈细轮廓线，修剪反面线头，绣面平整如绘即完成。",
+            "elements": [
+              {"tag": "path", "attrs": {"d": "M160 36 C205 60 225 110 160 168 C95 110 115 60 160 36 Z", "fill": "none", "stroke": "#16324f", "stroke-width": 2}},
+              {"tag": "text", "attrs": {"x": 160, "y": 192, "text-anchor": "middle", "class": "svg-caption", "data-text": "平整如绘 · 破线平绣"}}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "chain",
+      "name": "锁绣",
+      "otherNames": ["辫子股", "连环针"],
+      "difficulty": "low",
+      "region": "川黔滇、湘西",
+      "use": "勾边、轮廓线与块面填绣",
+      "thread": "双股绒线或丝线",
+      "summary": "每一针在出针处挽一个线圈，下一针从线圈中穿出再拉紧，环环相扣如辫链，是最古老的绣法之一，线条连绵富弹性。",
+      "diagram": {
+        "viewBox": [0, 0, 320, 200],
+        "fabric": {"x": 8, "y": 8, "w": 304, "h": 184, "fill": "#f3ead6"},
+        "steps": [
+          {
+            "title": "画走线基线",
+            "instruction": "在绣布上确定锁绣要走的曲线，锁绣适合勾轮廓，先轻描一条引导线。",
+            "elements": [
+              {"tag": "path", "attrs": {"d": "M36 104 C100 60 220 60 284 100", "fill": "none", "stroke": "#8a6d3b", "stroke-width": 1.6, "stroke-dasharray": "5 4"}}
+            ]
+          },
+          {
+            "title": "出针挽圈",
+            "instruction": "针从布背向上穿出，随即把线在针尖前挽一个小圈，暂不收紧。",
+            "elements": [
+              {"tag": "circle", "attrs": {"cx": 44, "cy": 100, "r": 6, "fill": "none", "stroke": "#7a1f2b", "stroke-width": 2.4}},
+              {"tag": "circle", "attrs": {"cx": 44, "cy": 100, "r": 2, "fill": "#7a1f2b"}}
+            ]
+          },
+          {
+            "title": "回针刺布",
+            "instruction": "针紧挨原出针点扎回布面，从圈内穿过，在前方约 4 毫米处再穿出。",
+            "elements": [
+              {"tag": "ellipse", "attrs": {"cx": 62, "cy": 95, "rx": 5, "ry": 7.5, "fill": "none", "stroke": "#7a1f2b", "stroke-width": 2.4, "transform": "rotate(18 62 95)"}},
+              {"tag": "circle", "attrs": {"cx": 62, "cy": 95, "r": 1.8, "fill": "#7a1f2b"}}
+            ]
+          },
+          {
+            "title": "连环推进",
+            "instruction": "重复挽圈—穿圈—出针，后一圈穿过前一圈的心，形成连续链条。",
+            "elements": [
+              {"tag": "ellipse", "attrs": {"cx": 82, "cy": 89, "rx": 5, "ry": 7.5, "fill": "none", "stroke": "#7a1f2b", "stroke-width": 2.4, "transform": "rotate(14 82 89)"}},
+              {"tag": "ellipse", "attrs": {"cx": 104, "cy": 84, "rx": 5, "ry": 7.5, "fill": "none", "stroke": "#7a1f2b", "stroke-width": 2.4, "transform": "rotate(9 104 84)"}},
+              {"tag": "ellipse", "attrs": {"cx": 127, "cy": 81, "rx": 5, "ry": 7.5, "fill": "none", "stroke": "#7a1f2b", "stroke-width": 2.4, "transform": "rotate(4 127 81)"}},
+              {"tag": "ellipse", "attrs": {"cx": 150, "cy": 81, "rx": 5, "ry": 7.5, "fill": "none", "stroke": "#7a1f2b", "stroke-width": 2.4}}
+            ]
+          },
+          {
+            "title": "拉紧调距",
+            "instruction": "每穿一针顺势匀力拉线，线圈大小保持一致，链节才整齐圆润。",
+            "elements": [
+              {"tag": "ellipse", "attrs": {"cx": 173, "cy": 83, "rx": 5, "ry": 7.5, "fill": "none", "stroke": "#7a1f2b", "stroke-width": 2.4, "transform": "rotate(-5 173 83)"}},
+              {"tag": "ellipse", "attrs": {"cx": 196, "cy": 87, "rx": 5, "ry": 7.5, "fill": "none", "stroke": "#7a1f2b", "stroke-width": 2.4, "transform": "rotate(-9 196 87)"}},
+              {"tag": "ellipse", "attrs": {"cx": 218, "cy": 92, "rx": 5, "ry": 7.5, "fill": "none", "stroke": "#7a1f2b", "stroke-width": 2.4, "transform": "rotate(-13 218 92)"}},
+              {"tag": "ellipse", "attrs": {"cx": 239, "cy": 96, "rx": 5, "ry": 7.5, "fill": "none", "stroke": "#7a1f2b", "stroke-width": 2.4, "transform": "rotate(-10 239 96)"}},
+              {"tag": "ellipse", "attrs": {"cx": 259, "cy": 99, "rx": 5, "ry": 7.5, "fill": "none", "stroke": "#7a1f2b", "stroke-width": 2.4, "transform": "rotate(-6 259 99)"}}
+            ]
+          },
+          {
+            "title": "收针固定",
+            "instruction": "走到末端不再挽圈，针从最后一圈中穿出后直接扎回背面打结固定。",
+            "elements": [
+              {"tag": "ellipse", "attrs": {"cx": 278, "cy": 100, "rx": 5, "ry": 7.5, "fill": "none", "stroke": "#7a1f2b", "stroke-width": 2.4, "transform": "rotate(-2 278 100)"}},
+              {"tag": "path", "attrs": {"d": "M280 100 l8 2", "stroke": "#16324f", "stroke-width": 2, "stroke-linecap": "round"}},
+              {"tag": "text", "attrs": {"x": 160, "y": 186, "text-anchor": "middle", "class": "svg-caption", "data-text": "环环相扣 · 锁绣"}}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "seed",
+      "name": "打籽绣",
+      "otherNames": ["打籽针", "结子绣"],
+      "difficulty": "hard",
+      "region": "黔东南、黔南",
+      "use": "花蕊、点状纹理与立体块面",
+      "thread": "强捻绒线，籽才饱满",
+      "summary": "出针后将线在针尖绕两圈，按住线圈在原孔旁扎回，收紧后在布面形成一粒粒饱满的小结，密密铺绣极具颗粒质感。",
+      "diagram": {
+        "viewBox": [0, 0, 320, 200],
+        "fabric": {"x": 8, "y": 8, "w": 304, "h": 184, "fill": "#f3ead6"},
+        "steps": [
+          {
+            "title": "定位花芯",
+            "instruction": "确定打籽区域，通常从花芯开始，按从内向外的螺旋顺序点籽。",
+            "elements": [
+              {"tag": "circle", "attrs": {"cx": 160, "cy": 102, "r": 52, "fill": "none", "stroke": "#8a6d3b", "stroke-width": 1.6, "stroke-dasharray": "5 4"}}
+            ]
+          },
+          {
+            "title": "出针绕线",
+            "instruction": "针从布背穿出，右手引线，将线在针尖由外向内绕两圈。",
+            "elements": [
+              {"tag": "circle", "attrs": {"cx": 160, "cy": 102, "r": 4.4, "fill": "#c9a24b", "stroke": "#8a6d3b", "stroke-width": 1.2}},
+              {"tag": "path", "attrs": {"d": "M160 96 a6 6 0 1 1 -0.1 0", "fill": "none", "stroke": "#c9a24b", "stroke-width": 2}}
+            ]
+          },
+          {
+            "title": "回针收紧",
+            "instruction": "按住线圈，在出针孔旁一点点扎回，顺势收线形成一颗紧籽。",
+            "elements": [
+              {"tag": "circle", "attrs": {"cx": 144, "cy": 102, "r": 4.4, "fill": "#c9a24b", "stroke": "#8a6d3b", "stroke-width": 1.2}},
+              {"tag": "circle", "attrs": {"cx": 176, "cy": 102, "r": 4.4, "fill": "#c9a24b", "stroke": "#8a6d3b", "stroke-width": 1.2}},
+              {"tag": "circle", "attrs": {"cx": 152, "cy": 88, "r": 4.4, "fill": "#c9a24b", "stroke": "#8a6d3b", "stroke-width": 1.2}},
+              {"tag": "circle", "attrs": {"cx": 168, "cy": 88, "r": 4.4, "fill": "#c9a24b", "stroke": "#8a6d3b", "stroke-width": 1.2}}
+            ]
+          },
+          {
+            "title": "铺满内圈",
+            "instruction": "籽粒紧挨但不重叠，绕中心逐粒补齐内圈，排列成蜂窝状。",
+            "elements": [
+              {"tag": "circle", "attrs": {"cx": 152, "cy": 116, "r": 4.4, "fill": "#c9a24b", "stroke": "#8a6d3b", "stroke-width": 1.2}},
+              {"tag": "circle", "attrs": {"cx": 168, "cy": 116, "r": 4.4, "fill": "#c9a24b", "stroke": "#8a6d3b", "stroke-width": 1.2}},
+              {"tag": "circle", "attrs": {"cx": 132, "cy": 92, "r": 4.4, "fill": "#c9a24b", "stroke": "#8a6d3b", "stroke-width": 1.2}},
+              {"tag": "circle", "attrs": {"cx": 132, "cy": 112, "r": 4.4, "fill": "#c9a24b", "stroke": "#8a6d3b", "stroke-width": 1.2}},
+              {"tag": "circle", "attrs": {"cx": 188, "cy": 92, "r": 4.4, "fill": "#c9a24b", "stroke": "#8a6d3b", "stroke-width": 1.2}},
+              {"tag": "circle", "attrs": {"cx": 188, "cy": 112, "r": 4.4, "fill": "#c9a24b", "stroke": "#8a6d3b", "stroke-width": 1.2}}
+            ]
+          },
+          {
+            "title": "外圈加密",
+            "instruction": "继续沿外圈补籽，换色可绣出花心渐变；籽越密，立体感越强。",
+            "elements": [
+              {"tag": "circle", "attrs": {"cx": 160, "cy": 64, "r": 4.4, "fill": "#b3402e", "stroke": "#7a1f2b", "stroke-width": 1.2}},
+              {"tag": "circle", "attrs": {"cx": 127, "cy": 73, "r": 4.4, "fill": "#b3402e", "stroke": "#7a1f2b", "stroke-width": 1.2}},
+              {"tag": "circle", "attrs": {"cx": 111, "cy": 102, "r": 4.4, "fill": "#b3402e", "stroke": "#7a1f2b", "stroke-width": 1.2}},
+              {"tag": "circle", "attrs": {"cx": 127, "cy": 131, "r": 4.4, "fill": "#b3402e", "stroke": "#7a1f2b", "stroke-width": 1.2}},
+              {"tag": "circle", "attrs": {"cx": 160, "cy": 140, "r": 4.4, "fill": "#b3402e", "stroke": "#7a1f2b", "stroke-width": 1.2}},
+              {"tag": "circle", "attrs": {"cx": 193, "cy": 131, "r": 4.4, "fill": "#b3402e", "stroke": "#7a1f2b", "stroke-width": 1.2}},
+              {"tag": "circle", "attrs": {"cx": 209, "cy": 102, "r": 4.4, "fill": "#b3402e", "stroke": "#7a1f2b", "stroke-width": 1.2}},
+              {"tag": "circle", "attrs": {"cx": 193, "cy": 73, "r": 4.4, "fill": "#b3402e", "stroke": "#7a1f2b", "stroke-width": 1.2}}
+            ]
+          },
+          {
+            "title": "点缀完成",
+            "instruction": "外围补几粒散籽作花粉，反面收线打结，颗粒饱满即完成。",
+            "elements": [
+              {"tag": "circle", "attrs": {"cx": 104, "cy": 64, "r": 3.2, "fill": "#0f7b6c"}},
+              {"tag": "circle", "attrs": {"cx": 224, "cy": 72, "r": 3.2, "fill": "#0f7b6c"}},
+              {"tag": "circle", "attrs": {"cx": 96, "cy": 132, "r": 3.2, "fill": "#0f7b6c"}},
+              {"tag": "circle", "attrs": {"cx": 226, "cy": 138, "r": 3.2, "fill": "#0f7b6c"}},
+              {"tag": "text", "attrs": {"x": 160, "y": 186, "text-anchor": "middle", "class": "svg-caption", "data-text": "籽粒饱满 · 打籽绣"}}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "pile",
+      "name": "堆绣",
+      "otherNames": ["叠绣", "板丝绣"],
+      "difficulty": "hard",
+      "region": "黔东南西江",
+      "use": "盛装胸袖、龙纹与几何边框",
+      "thread": "彩色丝线编压成三角绫片",
+      "summary": "先把丝线编成丝片、折成小三角或方块，再按纹样层层堆叠钉缝在底布上，形成如浮雕、鳞片般的立体效果。",
+      "diagram": {
+        "viewBox": [0, 0, 320, 200],
+        "fabric": {"x": 8, "y": 8, "w": 304, "h": 184, "fill": "#f3ead6"},
+        "steps": [
+          {
+            "title": "分格起稿",
+            "instruction": "在底布画出三角鳞片的排列网格，自下而上逐行堆钉。",
+            "elements": [
+              {"tag": "path", "attrs": {"d": "M52 60 H268 M52 92 H268 M52 124 H268 M52 156 H268", "stroke": "#8a6d3b", "stroke-width": 1.4, "stroke-dasharray": "4 4"}},
+              {"tag": "path", "attrs": {"d": "M52 60 V156 M268 60 V156", "stroke": "#8a6d3b", "stroke-width": 1.4, "stroke-dasharray": "4 4"}}
+            ]
+          },
+          {
+            "title": "制作绫片",
+            "instruction": "把丝线编成窄带或用绫绸折成小三角，浆硬剪成统一规格的鳞片。",
+            "elements": [
+              {"tag": "path", "attrs": {"d": "M76 156 L92 132 L108 156 Z", "fill": "#0f7b6c", "stroke": "#0c5e53", "stroke-width": 1.4}}
+            ]
+          },
+          {
+            "title": "钉底行",
+            "instruction": "鳞片尖朝上、底沿对齐基线，用同色线在两底角各钉一针固定。",
+            "elements": [
+              {"tag": "path", "attrs": {"d": "M112 156 L128 132 L144 156 Z M148 156 L164 132 L180 156 Z M184 156 L200 132 L216 156 Z M220 156 L236 132 L252 156 Z", "fill": "#0f7b6c", "stroke": "#0c5e53", "stroke-width": 1.4}},
+              {"tag": "circle", "attrs": {"cx": 76, "cy": 156, "r": 1.8, "fill": "#c9a24b"}},
+              {"tag": "circle", "attrs": {"cx": 108, "cy": 156, "r": 1.8, "fill": "#c9a24b"}}
+            ]
+          },
+          {
+            "title": "错缝叠层",
+            "instruction": "第二行鳞片错开半个身位，底边压住上一行的尖端，层层交叠如鳞。",
+            "elements": [
+              {"tag": "path", "attrs": {"d": "M94 124 L110 100 L126 124 Z M130 124 L146 100 L162 124 Z M166 124 L182 100 L198 124 Z M202 124 L218 100 L234 124 Z M238 124 L254 100 L270 124 Z", "fill": "#b3402e", "stroke": "#7a1f2b", "stroke-width": 1.4}}
+            ]
+          },
+          {
+            "title": "堆出造型",
+            "instruction": "按纹样换色继续向上堆叠，三角尖的方向可随龙身、花瓣转向。",
+            "elements": [
+              {"tag": "path", "attrs": {"d": "M76 92 L92 68 L108 92 Z M112 92 L128 68 L144 92 Z M148 92 L164 68 L180 92 Z M184 92 L200 68 L216 92 Z M220 92 L236 68 L252 92 Z", "fill": "#16324f", "stroke": "#0e2338", "stroke-width": 1.4}}
+            ]
+          },
+          {
+            "title": "压边成品",
+            "instruction": "上下沿压一道金线或锁绣收边，使整片浮雕纹牢固整齐。",
+            "elements": [
+              {"tag": "path", "attrs": {"d": "M60 156 H268", "stroke": "#c9a24b", "stroke-width": 3, "stroke-linecap": "round"}},
+              {"tag": "path", "attrs": {"d": "M60 68 H260", "stroke": "#c9a24b", "stroke-width": 3, "stroke-linecap": "round"}},
+              {"tag": "text", "attrs": {"x": 160, "y": 188, "text-anchor": "middle", "class": "svg-caption", "data-text": "层叠如鳞 · 堆绣"}}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "applique",
+      "name": "贴布绣",
+      "otherNames": ["补花", "贴花"],
+      "difficulty": "low",
+      "region": "川黔滇、黔中",
+      "use": "块面对比强烈的图案与儿童服饰",
+      "thread": "剪花布料与锁边彩线",
+      "summary": "把彩色布料剪成纹样形状贴在底布上，沿边以锁绣或短针钉牢，再在贴片上加绣细节，色块鲜明、结实耐磨。",
+      "diagram": {
+        "viewBox": [0, 0, 320, 200],
+        "fabric": {"x": 8, "y": 8, "w": 304, "h": 184, "fill": "#16324f"},
+        "steps": [
+          {
+            "title": "纸样定位",
+            "instruction": "在深色底布上摆好剪好的纸样，贴布绣重色块对比，先确定中心。",
+            "elements": [
+              {"tag": "path", "attrs": {"d": "M160 44 L194 128 L126 128 Z", "fill": "none", "stroke": "#e8d9a8", "stroke-width": 1.6, "stroke-dasharray": "5 4"}}
+            ]
+          },
+          {
+            "title": "剪贴布片",
+            "instruction": "依纸样剪出红布三角，边缘留 2 毫米缝份，熨贴在底布中央。",
+            "elements": [
+              {"tag": "path", "attrs": {"d": "M160 44 L194 128 L126 128 Z", "fill": "#b3402e", "stroke": "#7a1f2b", "stroke-width": 1.6}}
+            ]
+          },
+          {
+            "title": "锁边固定",
+            "instruction": "用黄线沿贴片三边做短直针或锁绣，把毛边完整压住。",
+            "elements": [
+              {"tag": "path", "attrs": {"d": "M128 126 L160 47 L192 126", "fill": "none", "stroke": "#e8b04b", "stroke-width": 2.6, "stroke-linejoin": "round", "stroke-dasharray": "3 3"}}
+            ]
+          },
+          {
+            "title": "加绣中心纹",
+            "instruction": "在红三角上用黄线补出小三角与点纹，贴片立即有了层次。",
+            "elements": [
+              {"tag": "path", "attrs": {"d": "M160 74 L178 118 L142 118 Z", "fill": "none", "stroke": "#e8b04b", "stroke-width": 2}},
+              {"tag": "circle", "attrs": {"cx": 160, "cy": 100, "r": 3, "fill": "#e8b04b"}}
+            ]
+          },
+          {
+            "title": "围边点缀",
+            "instruction": "沿大三角外沿钉一圈白色短针点，强化色块轮廓与节奏。",
+            "elements": [
+              {"tag": "path", "attrs": {"d": "M158 40 v7 M170 62 l6 -3 M186 92 l7 -1 M198 126 v7 M122 126 v7 M132 92 l-7 -1 M148 62 l-6 -3 M160 132 v7 M140 130 l-5 5 M180 130 l5 5", "stroke": "#f2ead8", "stroke-width": 2.4, "stroke-linecap": "round"}}
+            ]
+          },
+          {
+            "title": "补花完成",
+            "instruction": "在贴片中心钉一粒铜扣或打籽花心，背面线头收好，补花牢固醒目。",
+            "elements": [
+              {"tag": "circle", "attrs": {"cx": 160, "cy": 112, "r": 5, "fill": "#c9a24b", "stroke": "#8a6d3b", "stroke-width": 1.4}},
+              {"tag": "text", "attrs": {"x": 160, "y": 178, "text-anchor": "middle", "class": "svg-caption", "data-text": "色块鲜明 · 贴布绣"}}
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

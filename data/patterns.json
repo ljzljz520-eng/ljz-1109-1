@@ -1,0 +1,113 @@
+{
+  "schema": "miao-embroidery.patterns/v1",
+  "description": "苗绣服饰纹样数据：母题分类、寓意、用色、载体部位",
+  "updated": "2026-09-01",
+  "categories": [
+    { "id": "ancestor", "name": "始祖与神话" },
+    { "id": "nature", "name": "自然生灵" },
+    { "id": "landscape", "name": "山河故土" },
+    { "id": "geometric", "name": "几何符号" }
+  ],
+  "patterns": [
+    {
+      "id": "p1",
+      "motif": "butterfly",
+      "name": "蝴蝶妈妈",
+      "category": "ancestor",
+      "meaning": "苗族始祖神，象征生命起源与繁衍",
+      "placement": "衣袖、背扇、童帽",
+      "colors": ["#b3402e", "#c9a24b", "#1e4d3d"],
+      "description": "出自《苗族古歌》，蝴蝶从枫木树心生出，被视为苗人的始祖妈妈。造型常为人面蝶身或大对称双翅，居于画面中心。"
+    },
+    {
+      "id": "p2",
+      "motif": "maple",
+      "name": "枫木纹",
+      "category": "ancestor",
+      "meaning": "祖树、生命之树，护佑家宅",
+      "placement": "衣肩、围腰边框",
+      "colors": ["#8e2a1e", "#1c4532", "#e0c26a"],
+      "description": "枫木是蝴蝶妈妈诞生之所，被视为通天的祖树。叶片多作掌状对称，常以点粒表现果实与叶脉。"
+    },
+    {
+      "id": "p3",
+      "motif": "dragon",
+      "name": "苗龙纹",
+      "category": "ancestor",
+      "meaning": "保寨护家、带来雨水与丰收",
+      "placement": "袖腰、鼓藏节盛服",
+      "colors": ["#16324f", "#d6336c", "#c9a24b"],
+      "description": "不同于汉地的威严龙形，苗龙短身卷曲、亲和可爱，常与鱼、蚕、花草合体，称为牛角龙、鱼尾龙等。"
+    },
+    {
+      "id": "p4",
+      "motif": "bird",
+      "name": "锦鸡鸟纹",
+      "category": "nature",
+      "meaning": "带来谷种的神鸟，吉祥与报春",
+      "placement": "肩饰、头帕、飘带",
+      "colors": ["#7a1f2b", "#0f7b6c", "#e8b04b"],
+      "description": "传说锦鸡为苗人衔来谷种，鸟纹因此被广泛绣制。长尾高冠、体态夸张，常与花卉构成“鸟衔花”。"
+    },
+    {
+      "id": "p5",
+      "motif": "fish",
+      "name": "鱼鸟纹",
+      "category": "nature",
+      "meaning": "多子多孙、丰足有余",
+      "placement": "衣袖中部、童衣",
+      "colors": ["#16324f", "#b3402e", "#e0c26a"],
+      "description": "鱼产卵繁多，被寄以繁衍愿望；鱼常与鸟同框、与龙合体，形成超现实的复合造型。"
+    },
+    {
+      "id": "p6",
+      "motif": "drum",
+      "name": "铜鼓纹",
+      "category": "ancestor",
+      "meaning": "祭祀中心、权力与团聚",
+      "placement": "背扇中心、胸兜",
+      "colors": ["#c9a24b", "#7a1f2b", "#1e4d3d"],
+      "description": "脱胎于铜鼓鼓面的太阳芒、锯齿与旋纹，同心圆层层放射，是鼓藏节仪式在服饰上的回响。"
+    },
+    {
+      "id": "p7",
+      "motif": "river",
+      "name": "江河迁徙纹",
+      "category": "landscape",
+      "meaning": "记忆迁徙路线、不忘故土",
+      "placement": "裙摆、袖缘长条带",
+      "colors": ["#0f3550", "#d6336c", "#f2c14e"],
+      "description": "以连续折线、菱形与交叉线抽象表现渡过的江河与田畴，沿带状区域排列成“地图”。"
+    },
+    {
+      "id": "p8",
+      "motif": "city",
+      "name": "城池田园纹",
+      "category": "landscape",
+      "meaning": "祖先城池与田园生活的微缩",
+      "placement": "围腰、背带",
+      "colors": ["#1c4532", "#b3402e", "#f2ead8"],
+      "description": "用直线分隔出城池、田园与道路，小小人物、禾苗点缀其间，像一幅俯瞰的家园图。"
+    },
+    {
+      "id": "p9",
+      "motif": "mountain",
+      "name": "山形火纹",
+      "category": "landscape",
+      "meaning": "大山的庇护与火种传承",
+      "placement": "下摆、袖口花边",
+      "colors": ["#8e2a1e", "#16324f", "#e8b04b"],
+      "description": "三角锯齿连绵成山、跳跃如火，常作二方连续镶边，色彩对比强烈，节奏铿锵。"
+    },
+    {
+      "id": "p10",
+      "motif": "geometric",
+      "name": "十字几何纹",
+      "category": "geometric",
+      "meaning": "数纱秩序、太阳与方位",
+      "placement": "挑花衣、头巾、帐檐",
+      "colors": ["#10243d", "#c0392b", "#f2ead8"],
+      "description": "以十字、菱形、回纹按经纬布丝挑绣，高度对称，被认为是最早成型的苗绣纹样语言。"
+    }
+  ]
+}

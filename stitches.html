@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%237a1f2b'/%3E%3Cpath d='M16 5c-5 3-9 7-9 12a9 9 0 0018 0c0-5-4-9-9-12z' fill='none' stroke='%23c9a24b' stroke-width='2'/%3E%3Ccircle cx='16' cy='17' r='2.6' fill='%23e8d9a8'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/styles.css">
+<meta name="description" content="苗绣针法分步演示：破线平绣、锁绣、打籽绣、堆绣、贴布绣，支持自动播放、单步观看与断点续播。">
+<title>针法步骤 · 苗绣文化专题站</title>
+</head>
+<body data-page="stitches">
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M12 2C7 5 3 9 3 14a9 9 0 0018 0c0-5-4-9-9-12z" fill="none" stroke="#e8d9a8" stroke-width="1.8"/><circle cx="12" cy="14" r="2" fill="#e8d9a8"/></svg>
+      </span>
+      苗绣 · 针尖上的迁徙
+    </a>
+    <button class="nav-toggle" type="button" aria-label="打开主导航菜单" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle>
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+    <nav class="main-nav" id="primary-nav" aria-label="主导航" data-nav>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="origin.html">源流</a></li>
+        <li><a href="patterns.html">服饰纹样</a></li>
+        <li><a href="stitches.html" aria-current="page">针法步骤</a></li>
+        <li><a href="works.html">代表作品</a></li>
+        <li><a href="contemporary.html">当代设计</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-banner">
+    <div class="wrap">
+      <nav class="breadcrumb" aria-label="面包屑"><a href="index.html">首页</a> / 针法步骤</nav>
+      <h1>针法步骤</h1>
+      <p>五种代表性针法分步拆解。播放过程会自动保存进度，下次回来可断点续播；开启“减弱动态效果”后可改用单步手动观看。</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap" data-stitch-app>
+      <div class="resume-banner" id="resumeBanner" role="status">
+        <span id="resumeText">上次观看进度可恢复。</span>
+        <span>
+          <button type="button" id="btnResume">继续观看</button>
+          <button type="button" class="dismiss" id="btnDismissResume">从头开始</button>
+        </span>
+      </div>
+
+      <div class="stitch-select" id="stitchTabs" role="tablist" aria-label="选择针法">
+        <p class="loading">针法加载中……</p>
+      </div>
+
+      <div class="stitch-layout">
+        <div class="player-card reveal">
+          <div class="diagram-wrap" id="diagramMount"></div>
+          <div class="player-controls">
+            <button class="ctrl-btn" type="button" id="btnPrev" aria-label="上一步">← 上一步</button>
+            <button class="ctrl-btn play" type="button" id="btnPlay" aria-label="自动分步播放">▶ 播放</button>
+            <button class="ctrl-btn" type="button" id="btnNext" aria-label="下一步">下一步 →</button>
+            <button class="ctrl-btn" type="button" id="btnReset" aria-label="重置演示">重置</button>
+            <div id="progressBar" class="progress-track" role="progressbar" aria-label="演示进度" aria-valuemin="0" aria-valuemax="6" aria-valuenow="0"><div class="progress-fill" id="progressFill"></div></div>
+            <span class="step-readout" id="stepReadout">第 1 / 6 步</span>
+          </div>
+          <div class="step-panel" aria-live="polite">
+            <p class="step-title"><span class="step-index" id="stepIndex">·</span><span id="stepTitle">准备</span></p>
+            <p class="step-instruction" id="stepInstruction">点击“播放”自动分步演示，也可用“上一步 / 下一步”手动观看。</p>
+          </div>
+        </div>
+
+        <aside class="stitch-info-card reveal" id="stitchInfo" aria-label="针法介绍"></aside>
+      </div>
+
+      <p class="meta" style="margin-top:1.2rem;color:var(--muted);">
+        提示：使用键盘 <kbd>←</kbd> / <kbd>→</kbd> 方向键也可以单步切换；进度保存在本浏览器 localStorage 中。
+      </p>
+    </div>
+  </section>
+
+  <section class="section tinted">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">BEFORE YOU STITCH</p>
+        <h2>上手前的三件事</h2>
+      </div>
+      <div class="grid grid-3">
+        <article class="card reveal"><div class="card-body">
+          <h3>备料</h3>
+          <p>靛蓝土布或缎面作底，丝线、绒线分色备用；破线绣还需皂角液捋线，使丝缕顺滑不起毛。</p>
+        </div></article>
+        <article class="card reveal"><div class="card-body">
+          <h3>起稿</h3>
+          <p>传统绣样靠纸样与记忆传递，先在布面轻描轮廓、确定中心，复杂纹样再分区下针。</p>
+        </div></article>
+        <article class="card reveal"><div class="card-body">
+          <h3>绷架</h3>
+          <p>小件用绣花绷子绷紧布面，大件盛装则在膝上、木架上分段施绣，布面平整针脚才匀。</p>
+        </div></article>
+      </div>
+      <p style="text-align:center;margin-top:2rem;">
+        <a class="btn btn-primary" href="works.html">下一章：代表作品 →</a>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <h4>苗绣文化专题站</h4>
+        <p>以多页面静态站点整理苗绣的源流、纹样、针法与当代新生，内容用于文化传播与教学演示。</p>
+      </div>
+      <nav aria-label="页脚导航">
+        <h4>章节</h4>
+        <ul>
+          <li><a href="origin.html">源流</a></li>
+          <li><a href="patterns.html">服饰纹样</a></li>
+          <li><a href="stitches.html" aria-current="page">针法步骤</a></li>
+          <li><a href="works.html">代表作品</a></li>
+          <li><a href="contemporary.html">当代设计</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h4>浏览设置</h4>
+        <label class="motion-toggle">
+          <input type="checkbox" data-motion-checkbox aria-describedby="motion-hint">
+          减弱动态效果
+        </label>
+        <p id="motion-hint" style="margin-top:0.5rem;font-size:0.85rem;">默认跟随系统“减少动态”设置，也可手动关闭。</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> 苗绣文化专题站 · 静态演示项目</span>
+      <span>数据：<code>/data/*.json</code> · 构建报告见 <code>reports/</code></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/player.js"></script>
+</body>
+</html>

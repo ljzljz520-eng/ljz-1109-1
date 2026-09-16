@@ -1,0 +1,16 @@
+{
+  "name": "miao-embroidery-site",
+  "version": "1.0.0",
+  "description": "苗绣文化专题站：源流、服饰纹样、针法步骤、代表作品与当代设计案例（静态多页面，无后端）",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "build": "node scripts/build.js",
+    "check": "node scripts/check-a11y.js",
+    "test": "node scripts/check-a11y.js && node scripts/build.js",
+    "all": "node scripts/check-a11y.js && node scripts/build.js"
+  },
+  "keywords": ["苗绣", "非遗", "静态站", "无障碍", "vanilla-js"],
+  "license": "MIT",
+  "engines": { "node": ">=16" }
+}

@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-09-16T03:42:28.176Z",
+  "scannedFiles": [
+    "contemporary.html",
+    "css/styles.css",
+    "data/contemporary.json",
+    "data/origin.json",
+    "data/patterns.json",
+    "data/stitches.json",
+    "data/works.json",
+    "index.html",
+    "js/cases.js",
+    "js/main.js",
+    "js/motifs.js",
+    "js/patterns.js",
+    "js/player.js",
+    "js/works.js",
+    "origin.html",
+    "patterns.html",
+    "stitches.html",
+    "works.html"
+  ],
+  "referencesChecked": 58,
+  "brokenCount": 0,
+  "broken": []
+}
